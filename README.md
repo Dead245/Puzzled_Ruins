@@ -4,7 +4,7 @@ This Hytale asset pack was created within about ~72 hours during the 7-day modja
 
 Explore a crumbling ruin filled with puzzles, secrets, and hidden treasure.
 
-Deep within the ruins lies a massive treasure hoard sealed behind an ancient mechanism. To unlock it, you must explore the structure, solve eight unique puzzles, and collect the decorated gold blocks hidden throughout the ruins.
+Deep within the ruins lies a pile of treasure sealed behind an ancient mechanism. To unlock it, you must explore the structure, solve eight unique puzzles, and collect the decorated gold blocks hidden throughout the ruins.
 
 Once all eight gold blocks have been recovered, place them within the central podium to reveal the final treasure chamber.
 
