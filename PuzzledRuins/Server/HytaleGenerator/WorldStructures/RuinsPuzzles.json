@@ -1,0 +1,44 @@
+{
+  "Type": "NoiseRange",
+  "Biomes": [],
+  "DefaultBiome": "RuinsPuzzles",
+  "DefaultTransitionDistance": 32,
+  "MaxBiomeEdgeDistance": 32,
+  "Density": {
+    "Type": "Imported",
+    "Name": "Biome-Map"
+  },
+  "SpawnPositions": {
+    "Type": "List",
+    "Positions": [
+      {
+        "X": 59.5,
+        "Y": 158,
+        "Z": -6.5
+      }
+    ],
+    "ExportAs": "",
+    "Skip": false
+  },
+  "Framework": [
+    {
+      "Type": "Positions",
+      "Entries": [
+        {
+          "Name": "Spawns",
+          "Positions": {
+            "Type": "List",
+            "Positions": [
+              {
+                "X": 59.5,
+                "Y": 158,
+                "Z": -6.5
+              }
+            ],
+            "Skip": false
+          }
+        }
+      ]
+    }
+  ]
+}

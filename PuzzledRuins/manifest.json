@@ -1,0 +1,21 @@
+{
+  "Group": "DeadWolf",
+  "Name": "Puzzled Ruins",
+  "Version": "1.0.0",
+  "Description": "Explore old ruins and solve the multiple puzzles within it to get to the treasure room.",
+  "Authors": [
+    {
+      "Name": "DeadWolf",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

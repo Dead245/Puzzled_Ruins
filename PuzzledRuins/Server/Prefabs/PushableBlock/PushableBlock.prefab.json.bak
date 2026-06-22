@@ -1,0 +1,402 @@
+{
+  "version": 8,
+  "blockIdVersion": 11,
+  "anchorX": 0,
+  "anchorY": 0,
+  "anchorZ": 0,
+  "blocks": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Rock_Gold_Brick_Smooth"
+    }
+  ],
+  "fluids": [
+    {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    }
+  ],
+  "entities": [
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": 0.491455078125,
+            "Y": 0.39892578125,
+            "Z": 0.84002685546875
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -0.442138671875,
+              "Y": -0.3988189697265625,
+              "Z": -0.8400115966796875
+            },
+            "Max": {
+              "X": 0.442138671875,
+              "Y": 0.3988189697265625,
+              "Z": 0.8400115966796875
+            }
+          },
+          "Effects": [
+            {
+              "Type": "DeleteVolume",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.009999999776482582,
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockHitbox",
+              "Radius": 0.75,
+              "Center": "Volume"
+            },
+            {
+              "Type": "PastePrefab",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "PrefabList": "",
+              "Prefab": "PushableBlock",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -1.0
+              },
+              "AtVolumeOrigin": true,
+              "ShowParticles": false
+            },
+            {
+              "Type": "PlaceBlock",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "BlockType": "Empty",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Origin": "VolumeOrigin",
+              "ReplaceMode": "Always"
+            },
+            {
+              "Type": "ModifyTags",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "Operation": "Set",
+              "TagKey": "Check",
+              "TagValue": "Empty",
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockSolutionCheck",
+              "Radius": 0.5,
+              "Center": "Volume"
+            }
+          ],
+          "Enabled": true,
+          "TargetTypes": [
+            "Player"
+          ],
+          "Tags": {
+            "ID": "PushBlockHitbox"
+          },
+          "KeepLoaded": false,
+          "PrefabIndex": 0
+        }
+      }
+    },
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": 0.4947509765625,
+            "Y": 0.40386962890625,
+            "Z": 0.099884033203125
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -0.451416015625,
+              "Y": -0.3988189697265625,
+              "Z": -0.806427001953125
+            },
+            "Max": {
+              "X": 0.451416015625,
+              "Y": 0.3988189697265625,
+              "Z": 0.806427001953125
+            }
+          },
+          "Effects": [
+            {
+              "Type": "DeleteVolume",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.009999999776482582,
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockHitbox",
+              "Radius": 0.75,
+              "Center": "Volume"
+            },
+            {
+              "Type": "PastePrefab",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "PrefabList": "",
+              "Prefab": "PushableBlock",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 1.0
+              },
+              "AtVolumeOrigin": true,
+              "ShowParticles": false
+            },
+            {
+              "Type": "PlaceBlock",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "BlockType": "Empty",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Origin": "VolumeOrigin",
+              "ReplaceMode": "Always"
+            },
+            {
+              "Type": "ModifyTags",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "Operation": "Set",
+              "TagKey": "Check",
+              "TagValue": "Empty",
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockSolutionCheck",
+              "Radius": 0.5,
+              "Center": "Volume"
+            }
+          ],
+          "Enabled": true,
+          "TargetTypes": [
+            "Player"
+          ],
+          "Tags": {
+            "ID": "PushBlockHitbox"
+          },
+          "KeepLoaded": false,
+          "PrefabIndex": 1
+        }
+      }
+    },
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": 0.85595703125,
+            "Y": 0.3988189697265625,
+            "Z": 0.50799560546875
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -0.82598876953125,
+              "Y": -0.3988189697265625,
+              "Z": -0.45623779296875
+            },
+            "Max": {
+              "X": 0.82598876953125,
+              "Y": 0.3988189697265625,
+              "Z": 0.45623779296875
+            }
+          },
+          "Effects": [
+            {
+              "Type": "DeleteVolume",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.009999999776482582,
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockHitbox",
+              "Radius": 0.75,
+              "Center": "Volume"
+            },
+            {
+              "Type": "PastePrefab",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "PrefabList": "",
+              "Prefab": "PushableBlock",
+              "Position": {
+                "X": -1.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "AtVolumeOrigin": true,
+              "ShowParticles": false
+            },
+            {
+              "Type": "PlaceBlock",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "BlockType": "Empty",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Origin": "VolumeOrigin",
+              "ReplaceMode": "Always"
+            },
+            {
+              "Type": "ModifyTags",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "Operation": "Set",
+              "TagKey": "Check",
+              "TagValue": "Empty",
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockSolutionCheck",
+              "Radius": 0.5,
+              "Center": "Volume"
+            }
+          ],
+          "Enabled": true,
+          "TargetTypes": [
+            "Player"
+          ],
+          "Tags": {
+            "ID": "PushBlockHitbox"
+          },
+          "KeepLoaded": false,
+          "PrefabIndex": 2
+        }
+      }
+    },
+    {
+      "Components": {
+        "Transform": {
+          "Position": {
+            "X": 0.1241455078125,
+            "Y": 0.3988189697265625,
+            "Z": 0.49798583984375
+          },
+          "Rotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
+        "TriggerVolume": {
+          "Shape": {
+            "Type": "Box",
+            "Min": {
+              "X": -0.75,
+              "Y": -0.3988189697265625,
+              "Z": -0.449462890625
+            },
+            "Max": {
+              "X": 0.75,
+              "Y": 0.3988189697265625,
+              "Z": 0.449462890625
+            }
+          },
+          "Effects": [
+            {
+              "Type": "DeleteVolume",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.009999999776482582,
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockHitbox",
+              "Radius": 0.75,
+              "Center": "Volume"
+            },
+            {
+              "Type": "PastePrefab",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "PrefabList": "",
+              "Prefab": "PushableBlock",
+              "Position": {
+                "X": 1.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "AtVolumeOrigin": true,
+              "ShowParticles": false
+            },
+            {
+              "Type": "PlaceBlock",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "BlockType": "Empty",
+              "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "Origin": "VolumeOrigin",
+              "ReplaceMode": "Always"
+            },
+            {
+              "Type": "ModifyTags",
+              "Event": "ENTER",
+              "Interval": 0.0,
+              "Delay": 0.0,
+              "Operation": "Set",
+              "TagKey": "Check",
+              "TagValue": "Empty",
+              "MatchKey": "ID",
+              "MatchValue": "PushBlockSolutionCheck",
+              "Radius": 0.5,
+              "Center": "Volume"
+            }
+          ],
+          "Enabled": true,
+          "TargetTypes": [
+            "Player"
+          ],
+          "Tags": {
+            "ID": "PushBlockHitbox"
+          },
+          "KeepLoaded": false,
+          "PrefabIndex": 3
+        }
+      }
+    }
+  ]
+}

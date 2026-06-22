@@ -1,0 +1,24 @@
+{
+  "InstanceId": "RuinsPuzzles",
+  "Description": {
+    "DisplayName": "Puzzled Old Ruins",
+    "FlavorText": "Explore the old ruins and figure out how to reach the end!",
+    "ThemeColor": "#fff9b2",
+    "SplashImage": "DefaultArtwork.png",
+    "Objectives": [
+      "Solve all of the puzzles and reach the treasure room."
+    ]
+  },
+  "Spawn": {
+    "SpawnProviderOverride": {
+      "Id": "Global",
+      "SpawnPoint": {
+        "X": 59.5,
+        "Y": 157,
+        "Z": -6.5,
+        "Pitch": -90
+      }
+    },
+    "SpawnReturnPortal": false
+  }
+}
